@@ -24,6 +24,8 @@ public class App {
 		customer.addCustomerReturnValue();
 		
 		customer.addCustomerAround("javaxblog");
+		customer2.addCustomerAround("javaxblog");
+		customer.addCustomerAround("javaxblog");
 		
 		customer.addCustomerThrowException();		
 

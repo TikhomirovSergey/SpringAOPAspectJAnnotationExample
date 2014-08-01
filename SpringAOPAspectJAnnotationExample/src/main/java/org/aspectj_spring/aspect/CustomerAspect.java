@@ -73,7 +73,7 @@ public class CustomerAspect {
 	}
 	
 	
-	@Around("execution(* org.aspectj_spring.service.CustomerService.addCustomerAround(..))")
+	@Around("execution(* org.aspectj_spring.service.AddsCustomerAround.addCustomerAround(..))")
 	public void logAround(ProceedingJoinPoint joinPoint) throws Throwable {
 
 		System.out.println("logAround() is running!");

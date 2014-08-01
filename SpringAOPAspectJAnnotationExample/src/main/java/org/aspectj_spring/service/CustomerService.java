@@ -1,6 +1,6 @@
 package org.aspectj_spring.service;
 
-public class CustomerService extends AbstractCustService{
+public class CustomerService extends AbstractCustService implements AddsCustomerAround{
 	
 	public CustomerService(){
 		super();
